@@ -1,0 +1,166 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+
+.menu {
+  text-shadow: 0px 0px 1px rgb(131, 0, 207);
+	font-family: Arial, Helvetica, sans-serif;
+	min-width: 350px;
+	color: #fff;
+	position: absolute;
+  padding: 8px;
+  background-color: rgb(46, 46, 46, 0.02);
+}
+
+.head {
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu .head {
+	text-align: center;
+	height: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+	line-height: 27px;
+  font-size: 13px;
+}
+
+.menu .menu-items {
+	max-height: 330px;
+  max-width: 400;
+	overflow-y: auto;
+  --background: #21212100;
+}
+
+.menu .menu-items .menu-item {
+  font-weight: 400;
+	display: block;
+  padding: 12px;
+  font-size: 14px;
+	text-align: center;
+  text-indent: 5px;
+  margin-top: 5px;
+  background-color: rgba(46, 46, 46, 0.555);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius:10px;
+  box-shadow:0 5px 5px -5px rgba(255, 255, 255, 0.8),0 5px 5px -5px  rgba(255, 255, 255, 0.8);
+  -moz-box-shadow:0 5px 5px -5px rgba(255, 255, 255, 0.8),0 5px 5px -5px  rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow:0 5px 5px -5px rgba(255, 255, 255, 0.8),0 5px 5px -5px  rgba(255, 255, 255, 0.8);
+  -o-box-shadow:0 5px 5px -5px rgba(255, 255, 255, 0.8),0 5px 5px -5px rgba(255, 255, 255, 0.8);
+}
+
+.menu .menu-items .menu-item.selected {
+  font-weight: 650;
+  padding: 12px;
+  text-align: center;
+  background: #212121c5;
+  border-radius: 7px;
+  color: white;
+  box-shadow:0 5px 5px -5px rgba(153, 0, 255, 0.8),0 5px 5px -5px  rgba(153, 0, 255, 0.8);
+  -moz-box-shadow:0 5px 5px -5px rgba(153, 0, 255, 0.8),0 5px 5px -5px  rgba(153, 0, 255, 0.8);
+  -webkit-box-shadow:0 5px 5px -5px rgba(153, 0, 255, 0.8),0 5px 5px -5px  rgba(153, 0, 255, 0.8);
+  -o-box-shadow:0 5px 5px -5px rgba(153, 0, 255, 0.8),0 5px 5px -5px rgba(153, 0, 255, 0.8);
+  border: 2px solid rgb(131, 0, 207);
+  border-radius:10px;
+}
+
+.head > span {
+  position: relative;
+  display: inline-block;
+}
+
+.head > span::before,
+.head > span::after {
+  content: "";
+  position: absolute;
+  top: 52%;
+  width: 9999px;
+  height: 0.5px;
+  background: rgba(255, 255, 255, 0);
+}
+
+.head > span::before {
+  right: 105%;
+  margin-right: 15px;
+}
+
+.head > span::after {
+  left: 105%;
+  margin-left: 15px;
+}
+
+
+
+.menu.align-left {
+	right: 40;
+	bottom: 40;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-top {
+	right: 40;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-top-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	bottom: 40;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-bottom {
+	right: 40;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+.menu.align-bottom-left {
+	right: 40;
+	bottom: 40;
+}
+
+.menu.align-center {
+	right: 40;
+	bottom: 40;
+	transform: translate(-50%, -50%);
+}
+
+/* WebKit scrollbar properties */
+::-webkit-scrollbar {
+  width: 8px;
+  border-left: 4px solid #27273300;
+}
+::-webkit-scrollbar-track {
+  background: #27273300;
+  border-left: 4px solid #27273300;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a242d00;
+  border-left: 4px solid #27273300;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1a242d;
+  border-left: 4px solid #27273300;
+}
+
+/* MADE BY SLIZZARN - DISCORD: slizzarn#1144 GITHUB: https://github.com/slizzarn-fivem */
