@@ -1,6 +1,7 @@
 resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
 
-description 'ESX Menu Default'
+description 'ESX Menu Default, New UI by Deer (Kmoc#3214)'
+author 'Kmoc#3214'
 
 version '1.0.2'
 
